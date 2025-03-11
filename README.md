@@ -1,78 +1,81 @@
-
-# Inteligencia Artificial y Machine Learning: Resumen Teórico  
+# 🤖 Inteligencia Artificial y Machine Learning: Conceptos Básicos  
+**🎓 Datos del Alumno**  
 **Nombre:** Mariano Casal  
 **Curso:** 6.° año  
 **Materia:** Programación IV  
+---
+
+## 🧠 **Inteligencia Artificial (IA)**  
+
+### 📚 Definición  
+La **Inteligencia Artificial (IA)** es una rama de la informática que desarrolla sistemas capaces de realizar tareas que, en humanos, requieren inteligencia, como el aprendizaje, razonamiento o percepción.  
 
 ---
 
-## 📌 Objetivos  
-- Familiarizarse con los términos y definiciones fundamentales de IA y ML.  
-- Comprender los tipos de IA y Machine Learning.  
-- Identificar aplicaciones prácticas en el mundo real.  
-
----
-
-## 🧠 Inteligencia Artificial (IA)  
-
-### Definición  
-Rama de la informática que desarrolla sistemas capaces de realizar tareas que requieren inteligencia humana, como aprendizaje, razonamiento o percepción.  
-
-### Tipos de IA  
-1. **IA Débil (Narrow AI)**  
-   - **Definición:** Diseñada para una tarea específica.  
+### 🗂️ Tipos de IA  
+1. **🔍 IA Débil (Narrow AI)**  
+   - **Función:** Realiza tareas específicas.  
    - **Ejemplos:**  
-     - Asistentes virtuales (*Siri, Alexa*).  
-     - Recomendaciones de contenido (*Netflix*).  
+     - Asistentes virtuales: *Siri, Alexa*.  
+     - Sistemas de recomendación: *Netflix, Spotify*.  
 
-2. **IA General (AGI)**  
-   - **Definición:** Capacidad teórica para igualar la inteligencia humana en múltiples áreas.  
+2. **🌐 IA General (AGI)**  
+   - **Función:** Teóricamente iguala la inteligencia humana en múltiples áreas.  
    - **Estado actual:** No existe; es un objetivo en investigación.  
 
-3. **Superinteligencia (ASI)**  
-   - **Definición:** Superaría ampliamente la inteligencia humana.  
-   - **Ejemplo hipotético:** Robots autónomos con conciencia.  
-
-### Aplicaciones Prácticas de IA  
-- 🏥 Diagnóstico médico asistido (*IBM Watson Health*).  
-- 🚗 Vehículos autónomos (*Tesla Autopilot*).  
-- 🌍 Traducción automática (*Google Translate*).  
+3. **🚀 Superinteligencia (ASI)**  
+   - **Función:** Superaría ampliamente a la inteligencia humana.  
+   - **Ejemplo hipotético:** Robots autónomos con conciencia propia.  
 
 ---
 
-## 🤖 Machine Learning (ML)  
+### 🛠️ Aplicaciones Prácticas de IA  
+- 🏥 Diagnóstico médico asistido (*IBM Watson Health*).  
+- 🚗 Vehículos autónomos (*Tesla Autopilot*).  
+- 🌍 Traducción automática en tiempo real (*Google Translate*).  
 
-### Definición  
-Subcampo de la IA que utiliza algoritmos para aprender patrones de datos y mejorar su rendimiento sin programación explícita.  
+---
 
-### Tipos de Machine Learning  
-1. **Aprendizaje Supervisado**  
-   - **Característica:** Usa datos etiquetados.  
+## 📊 **Machine Learning (ML)**  
+
+### 📚 Definición  
+Subcampo de la IA que utiliza algoritmos para identificar patrones en datos y mejorar automáticamente su rendimiento sin intervención humana explícita.  
+
+---
+
+### 🗂️ Tipos de Machine Learning  
+1. **🔖 Aprendizaje Supervisado**  
+   - **Característica:** Datos etiquetados.  
    - **Ejemplos:**  
-     - Predicción de precios de viviendas.  
-     - Filtrado de *spam* en correos.  
+     - Predicción de precios de inmuebles.  
+     - Clasificación de correos como *spam* o *no spam*.  
 
-2. **Aprendizaje No Supervisado**  
-   - **Característica:** Analiza datos sin etiquetas.  
+2. **🧩 Aprendizaje No Supervisado**  
+   - **Característica:** Datos sin etiquetas.  
    - **Ejemplos:**  
      - Segmentación de clientes (*marketing*).  
-     - Detección de fraudes bancarios.  
+     - Detección de fraudes en transacciones.  
 
-3. **Aprendizaje por Refuerzo**  
-   - **Característica:** Aprende mediante recompensas/penalizaciones.  
+3. **🎮 Aprendizaje por Refuerzo**  
+   - **Característica:** Aprendizaje basado en recompensas.  
    - **Ejemplos:**  
      - Entrenamiento de agentes en juegos (*AlphaGo*).  
-     - Optimización de rutas en robots.  
+     - Optimización de rutas en robots autónomos.  
 
-4. **Deep Learning**  
-   - **Característica:** Emplea redes neuronales profundas.  
+4. **🧠 Deep Learning**  
+   - **Característica:** Redes neuronales profundas.  
    - **Ejemplos:**  
      - Reconocimiento facial (*Meta*).  
      - Generación de texto (*ChatGPT*).  
 
-### Aplicaciones Prácticas de ML  
+---
+
+### 🛠️ Aplicaciones Prácticas de ML  
 - 🎵 Recomendaciones personalizadas (*Spotify, YouTube*).  
-- 💊 Predicción de enfermedades con historiales médicos.  
+- 💊 Predicción de enfermedades mediante historiales clínicos.  
 - 🏭 Mantenimiento predictivo en industria 4.0.  
 
 ---
+
+> **📌 Nota:** Este documento fue creado por **Mariano Casal** para la materia **Programación IV** (6.° año).  
+> **🔗 Recursos útiles:** [Coursera](https://www.coursera.org) | [Libros de IA](https://www.amazon.com)  
