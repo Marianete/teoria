@@ -122,3 +122,71 @@ investigar sobre PIP
 1. **Instalar paquetes**:  
    ```bash
    pip install nombre_paquete
+que es un csv y como funciona el formato?
+# ¿Qué es un CSV y cómo funciona su formato?
+
+Un **CSV** (del inglés *Comma-Separated Values*) es un formato de archivo de **texto plano** utilizado para almacenar datos tabulares (filas y columnas). Es ampliamente compatible con programas como Excel, Google Sheets, y herramientas de análisis de datos (Python/R).
+
+---
+
+## 🗂️ **Estructura Básica**
+- **Columnas**: Separadas por un **delimitador** (generalmente una coma `,`, pero también `;` o tabulaciones).  
+- **Filas**: Cada línea del archivo representa un registro.  
+- **Cabecera**: La primera línea suele contener los nombres de las columnas (opcional).
+
+### Ejemplo:
+```csv
+Nombre,Edad,Ciudad
+Juan,30,Madrid
+María,25,Barcelona
+"Luis, Pérez",35,"Sevilla, España"
+
+## que es un dta frame y un data set
+# DataFrame vs. "Data Z": Explicación
+
+## 📊 **DataFrame**
+Un **DataFrame** es una estructura de datos **tabular** (bidimensional) utilizada en programación (ej: Python/R) para organizar información en filas y columnas. Es similar a una hoja de cálculo o una tabla de base de datos.
+
+### Características:
+- **Columnas con nombres**: Cada columna tiene un tipo de dato específico (numérico, texto, fecha, etc.).
+- **Filas indexadas**: Pueden identificarse por un índice numérico o personalizado.
+- **Operaciones eficientes**: Ideal para limpieza, análisis y visualización de datos.
+
+### Ejemplo en Python (Pandas):
+```python
+import pandas as pd
+
+data = {
+    "Nombre": ["Ana", "Luis", "Marta"],
+    "Edad": [25, 33, 28],
+    "Ciudad": ["Madrid", "Buenos Aires", "Lisboa"]
+}
+
+df = pd.DataFrame(data)
+print(df) 
+```
+## ¿Que es un data frame?
+# DataFrame vs. Dataset: Diferencias y Uso
+
+Aunque los términos **DataFrame** y **Dataset** suelen relacionarse, tienen significados técnicos específicos según el contexto. Aquí te explico:
+
+---
+
+## 📊 **DataFrame**
+- **Definición**: Estructura de datos **tabular** (filas y columnas) usada en lenguajes como Python (Pandas) o R.  
+- **Características**:  
+  - Columnas con tipos de datos definidos (ej: enteros, strings).  
+  - Operaciones optimizadas para análisis (filtrado, agrupación, joins).  
+  - Índices personalizables.  
+
+### Ejemplo (Python/Pandas):
+```python
+import pandas as pd
+
+df = pd.DataFrame({
+    "Nombre": ["Ana", "Luis"],
+    "Edad": [25, 33]
+})
+print(df)
+```
+
