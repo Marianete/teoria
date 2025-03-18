@@ -9,4 +9,3 @@ df.tail(20)
 ### 2. Mostrar solo las primeas 100 columnas de nombre. 
 df["nombre"].head(100)
 ![Interfaz](https://github.com/Marianete/teoria/blob/main/WhatsApp%20Image%202025-03-18%20at%2013.54.47.jpeg)
-df["nombre"].head(100)
